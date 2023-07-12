@@ -57,3 +57,44 @@ footer{
     text-align: center;
     color: #BDBDBD;    
 }
+
+@media only screen and (max-width: 600px){
+    main{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav{
+        margin: 2.5rem 0 0 2.3rem;
+    }
+
+    img{
+        height: 10rem;
+        width: 13rem;
+    }
+
+    .scarecrow_img{
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .details h1{
+        width: 60%;
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .details p{
+        width: 80%;
+        font-size: .9rem;
+        margin-top: 2rem;
+    }
+
+    button{
+        margin-top: 2rem;
+    }
+
+    .scarecrow_img, .details{
+        width: 80%;
+    }
+}
