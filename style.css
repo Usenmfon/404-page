@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Space+Mono:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+nav{
+    font-family: 'Inconsolata', monospace;
+    margin: 2.5rem 0 0 5rem;
+}
+
+main{
+    font-family: 'Space Mono', monospace;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.details{
+    width: 40%;
+}
+
+.details h1{
+    font-size: 3rem;
+}
+
+.details p{
+    width: 70%;
+    font-size: 1.2rem;
+}
+
+button{
+    background-color: #333333;
+    color: white;
+    height: 2.5rem;
+}
+
+.scarecrow_img{
+    width: 35%;
+}
+
+img{
+    height: 20rem;
+    width: 26rem;
+}
+
+footer{
+    font-family: 'Montserrat', monospace;
+    text-align: center;
+    color: #BDBDBD;    
+}
